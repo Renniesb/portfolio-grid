@@ -1,15 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import PortfolioCard from './portfolioCard';
 
 function App() {
-  // const container = {
-  //   'display':'grid',
-  //   'grid-template-columns': 'repeat(5, 1fr)',
-  //   'grid-template-rows': 'repeat(3, auto)', 
-  //   'gap': '8px',
-  //   'place-items': 'center'
-  // }
+
   const alignGrid = {
     'display':'flex',
     'margin-left':'8px',

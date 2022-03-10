@@ -22,7 +22,6 @@ function PortfolioCard() {
     })
   },[])
 
-  // <img style={{'width':'278px', 'height':'278px'}} src={data.message} alt="Portfolio piece"/>
 
   return <>{data ? <Card> <CardMedia component="img" height="278" image={data.message}/> </Card> : <h5>loading</h5>}</>
 }
